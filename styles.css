@@ -1,0 +1,1 @@
+body{margin:0;font-family:ui-sans-serif,system-ui;background:#0e1218;color:#e8eef7}header,main{padding:16px}main{display:grid;grid-template-columns:1.3fr .7fr;gap:16px}canvas,pre{background:#18212b;border-radius:8px;padding:8px}aside{display:flex;flex-direction:column;gap:8px}button{padding:8px 12px;border:0;border-radius:8px;background:#3f8cff;color:#fff}#status{color:#95e0a4}

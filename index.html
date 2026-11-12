@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Stream-Table Temporal Join Lab</title><link rel="stylesheet" href="styles.css"/></head>
+<body><header><h1>Stream-Table Temporal Join Lab</h1><p id="status">boot</p></header>
+<main><section><canvas id="timeline" width="720" height="240"></canvas><pre id="results"></pre></section>
+<aside id="controls">
+<label>Allowed Lateness (ms) <input data-key="lateness" type="number" value="1000"/></label>
+<button id="btn-load" type="button">Load fixtures</button>
+<button id="btn-run" type="button">Run</button>
+<button id="btn-export" type="button">Export JSON</button>
+<pre id="stats"></pre></aside></main>
+<script type="module" src="src/main.js"></script></body></html>
